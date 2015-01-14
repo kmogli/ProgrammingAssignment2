@@ -1,5 +1,13 @@
+## John Williams
+## San Bernardino 2015
+## R Programming - Assignment 2 - Coursera
+## ---------------------------------------
+
+
 ## Put comments here that give an overall description of what your
 ## functions do
+## 
+
 
 ## Write a short comment describing this function
 
