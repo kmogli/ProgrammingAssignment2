@@ -42,7 +42,17 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve(x, ...)
+## 
+## x is a list object created by makeCacheMatrix.
+## No input checking is done on the input object
+## passed to the function.
+## 
+## Additional arguments passed to cacheSolve will
+## will be passed to the solve function, but as it
+## stands the function is mean to be called with
+## with only the "matrix" object x, in which case
+## it returns the inverse of x, computed with solve.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
